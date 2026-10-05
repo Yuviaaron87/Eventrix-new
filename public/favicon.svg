@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="eventrix-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#4c1d95" />
+    </linearGradient>
+    <linearGradient id="spark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+  <!-- Outer glowing ring / Squircle -->
+  <rect x="5" y="5" width="90" height="90" rx="28" fill="url(#eventrix-grad)" />
+  <rect x="7" y="7" width="86" height="86" rx="26" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" />
+  
+  <!-- Stylized E with Spark -->
+  <path d="M 30 28 L 68 28 C 72 28 74 30 74 34 C 74 38 71 40 65 40 L 44 40 L 44 48 L 62 48 C 66 48 68 50 68 54 C 68 58 65 60 59 60 L 44 60 L 44 70 L 68 70 C 73 70 75 72 75 75 C 75 78 72 80 66 80 L 30 80 C 27 80 25 78 25 75 L 25 33 C 25 30 27 28 30 28 Z" fill="#ffffff" />
+  
+  <!-- Celebration Spark Star -->
+  <path d="M 72 22 L 74 27 L 79 29 L 74 31 L 72 36 L 70 31 L 65 29 L 70 27 Z" fill="url(#spark-grad)" />
+  <circle cx="28" cy="22" r="3" fill="#f472b6" />
+  <circle cx="82" cy="65" r="2.5" fill="#e9d5ff" />
+</svg>
